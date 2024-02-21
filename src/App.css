@@ -1,0 +1,143 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.menu-bar{
+  position: relative;
+  width: 15%;
+  height: 100vh;
+  background-color: #76C3D8;
+  left: 0;
+  text-align: left;
+}
+
+.menu-bar h2{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.menu-bar h2:hover{
+  cursor: pointer;
+}
+
+.main-container{
+  position: relative;
+  width: 85%;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+.legic-number-input{
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.active{
+  color: #282c34 !important;
+  background-color: white;
+}
+
+.files-management-container{
+  color: #282c34;
+  width: 85%;
+  background-color: white;
+}
+
+.import-data-table-section{
+  margin-top: 20px;
+  max-height: 89vh;
+  overflow-y: auto;
+
+}
+
+.import-data-table{
+  display: inline;
+  max-height: 89vh;
+}
+
+table {
+  table-layout: fixed;
+  width: 50%;
+}
+
+th,
+td {
+  width: 2%;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.clean-button{
+  margin-top: 10px;
+  background-color: #76C3D8;
+  color: white;
+  font-size: 1.3em;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.clean-button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.download-filename{
+  text-align: center;
+  font-size: 1.1em;
+  margin-right: 10px;
+}
+
+.filter-input{
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
