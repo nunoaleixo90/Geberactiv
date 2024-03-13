@@ -60,7 +60,7 @@ function App() {
               },{})
               let getUserToStatus = formatJson[legic]
               delete jsonConvert[legic];
-              getUserToStatus.push('OK');
+              getUserToStatus.push('check_circle');
               const legicStatus = [...jsonConvert];
               localStorage.setItem('gactiveImportedData', JSON.stringify(legicStatus))
               checkDb();
@@ -275,7 +275,7 @@ function App() {
           <td>{data[1]}</td>
           <td>{data[2]}</td>
           <td>{data[3]}</td>
-          <td>{data[4]}</td>
+          <td className='td-span'><span class="material-symbols-sharp">{data[4]}</span></td>
         </tr>
       )
     })

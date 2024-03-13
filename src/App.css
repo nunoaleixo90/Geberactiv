@@ -141,3 +141,7 @@ td {
   text-transform: uppercase;
   text-align: center;
 }
+
+.td-span{
+  color: rgb(44, 221, 44);
+}
