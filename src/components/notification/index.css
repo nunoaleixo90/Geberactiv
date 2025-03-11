@@ -1,0 +1,50 @@
+.Message {
+    display: table;
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    width: 640px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+ 
+.Message-body p{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 1.1em;
+}
+ 
+.Message-close{
+    border: none;
+    background: none;
+    position: fixed;
+    right: 3px;
+    bottom: 32px;
+    font-size: 1.2em;
+    color: #fff;
+}
+ 
+.error{
+    background-color: rgba(255,0,0,0.7);
+}
+ 
+.alert{
+    background-color: rgba(255, 128, 0, 0.8);
+}
+ 
+.info{
+    background-color: rgba(255, 208, 0, 0.95);
+}
+ 
+.success{
+    background-color: rgba(2, 126, 2, 0.884);
+}
+ 
+.Message-close{
+    transition: 0.5s;
+}
+ 
+.Message-close:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}

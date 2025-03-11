@@ -1,0 +1,87 @@
+
+/* Contêiner principal da seção */
+.limpar-container {
+    text-align: center;
+    padding: 350px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: -300px;
+}
+
+
+.clean-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.clean-button {
+    padding: 12px 25px;
+    background-color: #76C3D8; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.clean-button:hover {
+    background-color: #76C3D8; 
+}
+
+
+.confirmation-message {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.confirmation-message p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.confirm-button {
+    padding: 12px 25px;
+    background-color: #76C3D8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #76C3D8;
+}
+
+
+.cancel-button {
+    padding: 12px 25px;
+    background-color: #cccccc; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.cancel-button:hover {
+    background-color: #b3b3b3; 
+}
